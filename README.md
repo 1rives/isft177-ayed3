@@ -1,2 +1,2 @@
-# ISFT 177 - Ayed3
-Repository for "Algoritmos y Estructuras de Datos III"
+# ISFT 177 - AyED3
+Repo for "Algoritmos y Estructuras de Datos III"
