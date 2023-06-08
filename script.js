@@ -1,3 +1,11 @@
+/**
+ * Práctica Nº 1 - Lista de tareas
+ *
+ * @link   https://github.com/1rives/isft177-ayed3/tree/exercise1
+ * @file   Incorpora funcionalidad para agregar tareas a una lista
+ * @author 1rives
+ */
+
 document.addEventListener("DOMContentLoaded", function() {
 
     // Obtengo los elementos necesarios
