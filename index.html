@@ -5,9 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
-    <title>Exercise 2</title>
+    <title>Exercise 3</title>
 </head>
 <body>
+    <h1>Formulario de alta de personas</h1>
+
+    <form action="" id="formControl">
+        <label for="controlType">Tipo de control: </label>
+        <select type="text" id="controlType" class="controlType" required>
+            <option value="" disabled selected>Seleccione una opción</option>
+            <option value="text">Texto</option>
+            <option value="password">Contraseña</option>
+            <option value="number">Número</option>
+            <option value="color">Color CSS</option>
+            <option value="email">Correo</option>
+        </select>
+
+        <label for="controlName">Nombre: </label>
+        <input type="text" id="controlName" class="controlName" placeholder="Atributo 'name'" required>
+        
+        <label for="controlId">ID (Opcional): </label>
+        <input type="text" id="controlId" class="controlId" placeholder="ID para el control">
+
+        <label for="controlLabel">Label (Opcional): </label>
+        <input type="text" id="controlLabel" class="controlLabel" placeholder="Necesario si se ingresa ID">
+
+        <br>
+        <button id="submitButton">Crear</button>
+        <br><br>
+    </form>
+
+    <hr>
+    <br>
+    <form action="" id="newControl">
+
+    </form>
+
+    <span id="errorMessage"></span>
+
     <script src="script.js"></script>
 </body>
 </html>
