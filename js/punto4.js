@@ -11,11 +11,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Variables
     const PERSONAS = ["Pepe", "Luis", "Homero", "Marge", "Bart", "Lisa", "Maggie"];
     const PROFESIONES = ["Zapatero", "Hornero", "Inspector nuclear", "Ama de casa", "Vándalo", "Estudiante", "Desocupada"];
-    const LISTS_LENGTH = PERSONAS.length;
+    const ARRAY_LENGTH = PERSONAS.length;
 
     let personasContainer = document.querySelector('.personas');
 
-    for (let i = 0; i < LISTS_LENGTH; i++) {
+    for (let i = 0; i < ARRAY_LENGTH; i++) {
         // Creo el párrafo con su texto
         let paragraph = document.createElement('p');
         let paragraphText = document.createTextNode(`${PERSONAS[i]} - ${PROFESIONES[i]}`);

@@ -6,10 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
     <title>Punto 5</title>
+    <style>
+        li {
+            padding: 5px 20px 5px 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            
+            border: 1px solid black;
+            border-radius: 5%;
+
+            width: fit-content;
+        }
+
+        #label {
+            color:grey;
+        }
+    </style>
 </head>
 <body>
     <h1 id="">Ejercicio 5</h1>
+
+    <h3>Cambie el fondo del item según su posición</h3>
     <br>
+
+    <form>
+        <label for="inputItemPosition">Posición del item</label>
+        <input type="number"id="inputItemPosition" placeholder="Ej.: 1" min="1" max="5" required>
+
+        <label for="inputItemColor">Color hexadecimal</label>
+        <input type="text" id="inputItemColor" 
+        pattern="^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$" placeholder="Ej.: #555555" required>
+
+        <label id="label" for="inputColorExample">Necesitas un color?</label>
+        <input type="color" id="inputColorExample" value="#FFFFFF">
+
+        <button type="submit">Ingresar</button>
+    </form>
+
+    <br>
+
+    <h3>Lista de items</h3>
+    <ul>
+        <li>Sin fondo</li>
+        <li>Sin fondo</li>
+        <li>Sin fondo</li>
+        <li>Sin fondo</li>
+        <li>Sin fondo</li>
+    </ul>
 
     <br>
     <br>
