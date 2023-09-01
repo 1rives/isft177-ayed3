@@ -31,7 +31,7 @@ Y con los datos ingresados, modifique el color de fondo del elemento ubicado en 
 
 6. Dado el siguiente arreglo de colores:
 
-![Exercise six Part I](https://i.imgur.com/mz7jJGH.png)
+![Exercise six Part I](https://i.imgur.com/Os1B5oL.png)
 
 Y un documento HTML con una lista no ordenada de 10 elementos.
 Desarrollar un programa en Javascript que, generando de manera aleatoria un valor entre 0 y 5, lea un color del arreglo de colores y lo asigne como color de letra de uno de los elementos de la lista no ordenada. El elemento de la lista debe seleccionarse también de manera aleatoria.
