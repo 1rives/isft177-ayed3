@@ -2,7 +2,7 @@
  * Práctica Nº 4 - Modelo de objetos del documento / Funciones
  *
  * @link   https://github.com/1rives/isft177-ayed3/tree/exercise4
- * @file   Utilizado en el punto 7
+ * @file   Utilizado en el punto 8
  * @author 1rives
  */
 
